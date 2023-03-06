@@ -73,6 +73,8 @@ div.projects{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
 }
 
 div.project{
@@ -89,10 +91,18 @@ form{
     flex-direction: column;
     width: 50%;
     margin: auto;
+    min-width: 350px;
+    max-width: 500px;
 }
 
 label{
     margin-bottom: 10px;
+}
+
+input[type='submit']{
+    width: 100px;
+    padding: 15px;
+    margin: auto;
 }
 
 footer{
