@@ -18,6 +18,11 @@ nav{
     width: 100%;
 }
 
+.header-container{
+    max-width: 600px;
+    margin: auto;
+}
+
 menu{
     list-style: none;
     display: flex;
@@ -25,10 +30,14 @@ menu{
     padding: 0;
 }
 
-a{
+nav a{
     text-decoration: none;
     color: white;
     font-size: 1.5rem;
+}
+
+nav a:hover{
+    text-decoration: underline;
 }
 
 li{
@@ -45,8 +54,55 @@ h1{
     color:#BE3144
 }
 
-img{
+.hero{
     width: 50%;
+    max-width: 500px;
     height: auto;
     box-shadow: 5px 5px 5px #fff;
+}
+
+section h2{
+    padding-top: 25px;
+}
+
+section.projects{
+    background-color: #BE3144;
+}
+
+div.projects{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+div.project{
+    width: 300px;
+    height: 300px;
+    background-color: #222325;
+    display: inline-block;
+    border: 1px solid red;
+    margin: 25px 0;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+footer{
+    margin: 25px;
+}
+
+h3{
+    color: white;
+}
+
+i{
+    color: white;
 }
